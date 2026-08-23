@@ -9,7 +9,7 @@ class Menu
         System.Console.WriteLine("                   STUDENT MANAGEMENT SYSTEM ");
         System.Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
-        System.Console.WriteLine("\n1. Add Student \n2. View ");
+        System.Console.WriteLine("\n1. Add Student \n2. View All students");
 
     }
 }
