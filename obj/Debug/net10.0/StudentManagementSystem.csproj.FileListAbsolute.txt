@@ -1,0 +1,14 @@
+/Users/inspire/Documents/StudentManagementSystem/bin/Debug/net10.0/StudentManagementSystem
+/Users/inspire/Documents/StudentManagementSystem/bin/Debug/net10.0/StudentManagementSystem.deps.json
+/Users/inspire/Documents/StudentManagementSystem/bin/Debug/net10.0/StudentManagementSystem.runtimeconfig.json
+/Users/inspire/Documents/StudentManagementSystem/bin/Debug/net10.0/StudentManagementSystem.dll
+/Users/inspire/Documents/StudentManagementSystem/bin/Debug/net10.0/StudentManagementSystem.pdb
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.AssemblyInfoInputs.cache
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.AssemblyInfo.cs
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.csproj.CoreCompileInputs.cache
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.dll
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/refint/StudentManagementSystem.dll
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.pdb
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.genruntimeconfig.cache
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/ref/StudentManagementSystem.dll
