@@ -19,8 +19,16 @@ class Menu
 class Program
 {
     static void Main(string[] args)
+<<<<<<< HEAD
     {
        
 
+=======
+    {    
+        Menu m=new Menu();
+        Console.WriteLine("hello");
+        System.Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=" );
+        m.main_screen();
+>>>>>>> 8e65ca4847f15ca721446ba7296f053d1ab8b71c
     }
 }
