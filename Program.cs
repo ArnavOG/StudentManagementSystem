@@ -20,6 +20,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+        Menu mn =new Menu();
+        mn.main_screen();
     }
 }
