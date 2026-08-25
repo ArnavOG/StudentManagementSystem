@@ -4,7 +4,8 @@ class Menu
 {
     public void main_screen()
     {
-        System.Console.WriteLine("hello");
+        System.Console.WriteLine("Welcome to the Menu");
+    
        
     }
 }

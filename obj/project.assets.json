@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rituraj\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
       "projectName": "StudentManagementSystem",
-      "projectPath": "C:\\Users\\Rituraj\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
+      "projectPath": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
       "packagesPath": "C:\\Users\\Rituraj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rituraj\\StudentManagementSystem\\StudentManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
