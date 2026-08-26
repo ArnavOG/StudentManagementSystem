@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
-        "projectName": "StudentManagementSystem",
-        "projectPath": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\Rituraj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\obj\\",
-=======
     "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj": {}
   },
   "projects": {
@@ -25,7 +12,6 @@
         "projectPath": "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj",
         "packagesPath": "/Users/inspire/.nuget/packages/",
         "outputPath": "/Users/inspire/Documents/StudentManagementSystem/obj/",
->>>>>>> aa4c27991fe2caf38e05d0edd3ea5fd25cf8da0f
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/inspire/.nuget/NuGet/NuGet.Config"

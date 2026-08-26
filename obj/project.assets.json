@@ -13,19 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
-      "projectName": "StudentManagementSystem",
-      "projectPath": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\Rituraj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\obj\\",
-=======
       "projectUniqueName": "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj",
       "projectName": "StudentManagementSystem",
       "projectPath": "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj",
       "packagesPath": "/Users/inspire/.nuget/packages/",
       "outputPath": "/Users/inspire/Documents/StudentManagementSystem/obj/",
->>>>>>> aa4c27991fe2caf38e05d0edd3ea5fd25cf8da0f
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/inspire/.nuget/NuGet/NuGet.Config"
@@ -352,5 +344,13 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/inspire/Documents/StudentManagementSystem/obj/project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+    }
+  ]
 }
