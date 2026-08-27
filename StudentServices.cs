@@ -1,4 +1,4 @@
-abstract class StudentServices
+interface IStudentServices
 {
     public abstract Boolean AddStudent();
     public abstract void ViewAllStudents();
