@@ -1,5 +1,5 @@
 class Person
 {
-    public string name;
+    public string? name;
     public int age;
 }
