@@ -12,3 +12,4 @@
 /Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.pdb
 /Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.genruntimeconfig.cache
 /Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/ref/StudentManagementSystem.dll
+/Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.sourcelink.json

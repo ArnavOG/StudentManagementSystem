@@ -1,4 +1,4 @@
-class Sudent : Person
+class Student : Person
 {
     public int RollNo;
     public String? Course;
