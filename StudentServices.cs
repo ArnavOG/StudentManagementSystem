@@ -1,8 +1,8 @@
-interface IStudentServices
+abstract class StudentServices
 {
-     Boolean AddStudent();
-     void ViewAllStudents();
-    Boolean SearchStudent();
-   Boolean UpdateStudent();
-     Boolean DeleteStudent();
+    public abstract Boolean AddStudent();
+  public abstract  void ViewAllStudents();
+   public abstract Boolean SearchStudent();
+   public  abstract Boolean UpdateStudent();
+    public abstract Boolean DeleteStudent();
 }
