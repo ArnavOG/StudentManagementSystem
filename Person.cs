@@ -12,7 +12,11 @@ class Person
         {
             if (age >= 0)
             {
-                
+                age = value;
+            }
+            else
+            {
+                System.Console.WriteLine("Please Enter a Valid Age");
             }
         }
     }
