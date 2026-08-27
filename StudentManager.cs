@@ -39,7 +39,35 @@ class StudentManager : StudentServices
     // Method for Viewing all Students
     public override void ViewAllStudents()
     {
+             // Check whether the List contains any student or not
+        if (students.Count == 0)
+        {
+            // If List is empty
+            System.Console.WriteLine("\nNo Student Found.\n");
 
+            return;
+        }
+
+
+        // Display heading
+        System.Console.WriteLine("\n================================================================================");
+        System.Console.WriteLine("                            ALL STUDENTS");
+        System.Console.WriteLine("================================================================================");
+
+
+        // foreach loop is used to access every student
+        foreach (Student student in students)
+        {
+            // Display Student Details
+            System.Console.WriteLine("\nName         : " + student.name);
+            System.Console.WriteLine("Age          : " + student.age);
+            System.Console.WriteLine("Roll Number  : " + student.RollNo);
+            System.Console.WriteLine("Course       : " + student.Course);
+            System.Console.WriteLine("Marks        : " + student.Marks);
+
+            System.Console.WriteLine("--------------------------------------------------------------------------------");
+        }
+    }
     }
 
 
