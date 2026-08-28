@@ -14,22 +14,26 @@ class Student : Person
         // Inserts the data into the course
         set
         {
-            if(string.Equals(Course, "Computer Science", StringComparison.OrdinalIgnoreCase))
+            if(string.Equals(value, "Computer Science", StringComparison.OrdinalIgnoreCase))
             {
                 Course = value;
+                System.Console.WriteLine("Course Stored");
             }
-            else if(string.Equals(Course, "Mechanical", StringComparison.OrdinalIgnoreCase))
+            else if(string.Equals(value, "Mechanical", StringComparison.OrdinalIgnoreCase))
             {
                 Course = value;
+                System.Console.WriteLine("Course Stored");
             }
-            else if(string.Equals(Course, "Computer Science", StringComparison.OrdinalIgnoreCase))
+            else if(string.Equals(value, "Civil", StringComparison.OrdinalIgnoreCase))
             {
                 Course = value;
+                System.Console.WriteLine("Course Stored");
             }
             else
             {
                 System.Console.WriteLine("Course not Available, Please Choose a valid Course");
             }
+            
         }
     }
     public int Marks;   // Stores the value of marks out of 100 
@@ -42,14 +46,16 @@ class Student : Person
         }
         set
         {
-            if(Marks >= 0 && Marks <= 100)
+            if(value >= 0 && value <= 100)
             {
                 Marks = value;
+                System.Console.WriteLine("Marks stored");
             }
             else
             {
                 System.Console.WriteLine("Please Enter Marks above 0 and below 100...");
             }
+            
         }
     }
 

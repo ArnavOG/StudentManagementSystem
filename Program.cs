@@ -112,8 +112,11 @@ class Program
     static void Main(string[] args)
 
     {
-        Menu mu =new Menu();
+        // Menu mu =new Menu();
 
-        mu.main_screen();
+        // mu.main_screen();
+
+        StudentManager sm = new StudentManager();
+        sm.AddStudent();
     }
 } 

@@ -14,14 +14,16 @@ class Person
         // Writes into the value of age
         set
         {
-            if (age >= 0)
+            if (value >= 0)
             {
                 age = value;
+                System.Console.WriteLine("Age stored");
             }
             else
             {
-                System.Console.WriteLine("Please Enter a Valid Age");
+                System.Console.WriteLine("Please Enter a Valid Age...");
             }
+            
         }
     }
 }
