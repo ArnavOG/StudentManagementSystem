@@ -7,6 +7,9 @@ class StudentManager : StudentServices
     public Boolean AddStudentSuccess = false;  // Checks if Student is added or not and returns the result
     public override Boolean AddStudent()
     {
+
+        AddStudentSuccess = false;
+
         // Displays Add Student Interface
         System.Console.WriteLine("================================================================================");
         System.Console.WriteLine("                            ADD NEW STUDENT");
@@ -33,7 +36,9 @@ class StudentManager : StudentServices
         student.Marks = Convert.ToInt32(Console.ReadLine());
          
      // Add student object into the List
-        students.Add(student);
+        student.Add(student);                // Jisne bhi ye likha hai wo dubara ek baar check kar le 🙂
+
+        AddStudentSuccess = true;
 
         return AddStudentSuccess;
     }
@@ -44,7 +49,7 @@ class StudentManager : StudentServices
     { 
         try
        {
-           if (Student.count == 0) // Check how.                 many students are in the list
+           if (Student.count == 0) // Check how many students are in the list
              {
                  // Check if the list is empty
                  System.Console.WriteLine("\nNo Student Found.\n");
@@ -60,13 +65,13 @@ class StudentManager : StudentServices
     foreach (Student student in student)
     {
         // Display student details
-        System.Console.WriteLine("\nName         : " + student.name);
+        System.Console.WriteLine("\nName       : " + student.name);
         System.Console.WriteLine("Age          : " + student.age);
         System.Console.WriteLine("Roll Number  : " + student.RollNo);
         System.Console.WriteLine("Course       : " + student.Course);
         System.Console.WriteLine("Marks        : " + student.Marks);
 
-                System.Console.WriteLine("--------------------------------------------------------------------------------");
+            System.Console.WriteLine("--------------------------------------------------------------------------------");
             }
        }
             catch (NullReferenceException)

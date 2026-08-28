@@ -6,14 +6,14 @@ class Menu
     public void main_screen()
     {    
 
-        // START SCREEN 
+       // START SCREEN 
 
        System.Console.Clear();
        System.Console.WriteLine("________________________________________________________________________________________________________");
        System.Console.WriteLine("\n");
        System.Console.WriteLine("===================================================================");
         
-        System.Console.WriteLine("     ⚫     🏫 WELCOME TO COLLEGE MANAGEMENT SYSTEM               ");
+        System.Console.WriteLine("             WELCOME TO COLLEGE MANAGEMENT SYSTEM               ");
 
         System.Console.WriteLine("===================================================================");
 
@@ -22,7 +22,7 @@ class Menu
         System.Console.WriteLine("\n");
 
     
-        System.Console.WriteLine("      ⚫         🎓 PLEASE ENTER TO CONTINUE.........              ");
+        System.Console.WriteLine("                  PLEASE ENTER TO CONTINUE.........              ");
        
         System.Console.WriteLine("\n");
         System.Console.WriteLine("                          👉   [ ENTER ]   👈                         ");
@@ -44,17 +44,17 @@ class Menu
         System.Console.Clear();
 
 
-               // MAIN MENU
+        // MAIN MENU
         
         System.Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-        System.Console.WriteLine("                            📃 [ MAIN MENU ] 📃                               ");
+        System.Console.WriteLine("                              [ MAIN MENU ]                              ");
         System.Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
         System.Console.WriteLine("\n1. Add Student \n2. View All students \n3. Search Student \n4. Delete Student  \n5. Update Student \n6. Exit");
         System.Console.WriteLine("\n");
        
         
-                            // check valid choice
+        // check valid choice
 
         string choice;
 
@@ -72,10 +72,10 @@ class Menu
         
             System.Console.WriteLine("❌ Invalid choice!");
             
-            System.Console.WriteLine("Please enter a number between 1 and 6:");
+            System.Console.WriteLine("Please Enter a number between 1 and 6:");
         }
         
-            switch (choice)
+            switch(choice)
             {
             case "1" :
                 System.Console.WriteLine("Add student ");
