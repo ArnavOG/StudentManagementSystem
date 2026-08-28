@@ -12,14 +12,19 @@ class Menu
 
        System.Console.WriteLine("===================================================================");
         
-        System.Console.WriteLine("               WELCOME TO COLLEGE MANAGEMENT SYSTEM               ");
+        System.Console.WriteLine("     ⚫     🏫 WELCOME TO COLLEGE MANAGEMENT SYSTEM               ");
 
         System.Console.WriteLine("===================================================================");
 
         System.Console.WriteLine();
 
+        System.Console.WriteLine("\n");
+
     
-        System.Console.WriteLine("                    PLEASE ENTER TO CONTINUE.........              ");
+        System.Console.WriteLine("      ⚫         🎓 PLEASE ENTER TO CONTINUE.........              ");
+       
+        System.Console.WriteLine("\n");
+        System.Console.WriteLine("                          👉   [ ENTER ]   👈                         ");
         while (true)
         {
             ConsoleKeyInfo key = Console.ReadKey(true);
@@ -37,7 +42,7 @@ class Menu
                // MAIN MENU
         
         System.Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-        System.Console.WriteLine("                               MAIN MENU                                 ");
+        System.Console.WriteLine("                            📃 [ MAIN MENU ] 📃                               ");
         System.Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
         System.Console.WriteLine("\n1. Add Student \n2. View All students \n3. Search Student \n4. Delete Student  \n5. Update Student \n6. Exit");
@@ -49,18 +54,19 @@ class Menu
         string choice;
 
         while(true){
-         System.Console.WriteLine("Enter your choice");
+         System.Console.Write("Enter your choice :");
 
          choice = Console.ReadLine();
+         System.Console.WriteLine("\n");
 
         if (choice =="1"|| choice == "2" || choice =="3"|| choice =="4"|| choice =="5"|| choice =="6")
         {
             break;
         }
         
-            System.Console.WriteLine("Invalid choice!");
+            System.Console.WriteLine("❌ Invalid choice!");
             
-            System.Console.WriteLine("Please enter a number between 1 and 6");
+            System.Console.WriteLine("Please enter a number between 1 and 6:");
         }
         
             switch (choice)
@@ -89,7 +95,6 @@ class Menu
                 System.Console.WriteLine( "Search Student ");
             break;
      
-                          return;
             }
         }
     }
