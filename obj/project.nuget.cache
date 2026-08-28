@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "FMKifR8WO+Y=",
+  "dgSpecHash": "Se/BI+nCZqs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rituraj\\OneDrive\\Desktop\\StudentManagementSystem\\StudentManagementSystem\\StudentManagementSystem.csproj",
-=======
-  "dgSpecHash": "wYbKnoDUDss=",
-  "success": true,
-  "projectFilePath": "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj",
->>>>>>> aa4c27991fe2caf38e05d0edd3ea5fd25cf8da0f
+  "projectFilePath": "C:\\Users\\HP\\Documents\\GitHub\\StudentManagementSystem\\StudentManagementSystem.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
