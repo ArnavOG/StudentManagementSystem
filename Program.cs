@@ -9,7 +9,8 @@ class Menu
         // START SCREEN 
 
        System.Console.Clear();
-
+       System.Console.writeLin("_____________________________________________________________________________________________________________________________");
+       System.Console.writeLin("\n");
        System.Console.WriteLine("===================================================================");
         
         System.Console.WriteLine("     ⚫     🏫 WELCOME TO COLLEGE MANAGEMENT SYSTEM               ");
@@ -25,6 +26,10 @@ class Menu
        
         System.Console.WriteLine("\n");
         System.Console.WriteLine("                          👉   [ ENTER ]   👈                         ");
+
+        System.Console.writeLin("\n");
+        System.Console.writeLin("____________________________________________________________________________________________________________________________");
+        System.Console.writeLin("\n");
         while (true)
         {
             ConsoleKeyInfo key = Console.ReadKey(true);
