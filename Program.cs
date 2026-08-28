@@ -9,8 +9,8 @@ class Menu
         // START SCREEN 
 
        System.Console.Clear();
-       System.Console.writeLin("_____________________________________________________________________________________________________________________________");
-       System.Console.writeLin("\n");
+       System.Console.WriteLine("________________________________________________________________________________________________________");
+       System.Console.WriteLine("\n");
        System.Console.WriteLine("===================================================================");
         
         System.Console.WriteLine("     ⚫     🏫 WELCOME TO COLLEGE MANAGEMENT SYSTEM               ");
@@ -27,9 +27,9 @@ class Menu
         System.Console.WriteLine("\n");
         System.Console.WriteLine("                          👉   [ ENTER ]   👈                         ");
 
-        System.Console.writeLin("\n");
-        System.Console.writeLin("____________________________________________________________________________________________________________________________");
-        System.Console.writeLin("\n");
+        System.Console.WriteLine("\n");
+        System.Console.WriteLine("_________________________________________________________________________________________________________");
+        System.Console.WriteLine("\n");
         while (true)
         {
             ConsoleKeyInfo key = Console.ReadKey(true);
@@ -61,7 +61,8 @@ class Menu
         while(true){
          System.Console.Write("Enter your choice :");
 
-         choice = Console.ReadLine();
+         choice = Console.ReadLine() ??"";
+
          System.Console.WriteLine("\n");
 
         if (choice =="1"|| choice == "2" || choice =="3"|| choice =="4"|| choice =="5"|| choice =="6")
