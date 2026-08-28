@@ -55,32 +55,32 @@ class StudentManager : StudentServices
                  return;
               }
 
-       System.Console.WriteLine("\n================================================================================");
-    System.Console.WriteLine("                            ALL STUDENTS");
-    System.Console.WriteLine("================================================================================");
+            System.Console.WriteLine("\n================================================================================");
+            System.Console.WriteLine("                            ALL STUDENTS");
+            System.Console.WriteLine("================================================================================");
 
-    // Access each student using the foreach loop
-    foreach (Student student in students)
-    {
-        // Display student details
-        System.Console.WriteLine("\nName         : " + student.name);
-        System.Console.WriteLine("Age          : " + student.age);
-        System.Console.WriteLine("Roll Number  : " + student.RollNo);
-        System.Console.WriteLine("Course       : " + student.Course);
-        System.Console.WriteLine("Marks        : " + student.Marks);
+            // Access each student using the foreach loop
+            foreach (Student student in students)
+            {
+                // Display student details
+                System.Console.WriteLine("\nName         : " + student.name);
+                System.Console.WriteLine("Age          : " + student.age);
+                System.Console.WriteLine("Roll Number  : " + student.RollNo);
+                System.Console.WriteLine("Course       : " + student.Course);
+                System.Console.WriteLine("Marks        : " + student.Marks);
 
-        System.Console.WriteLine("--------------------------------------------------------------------------------");
-    }
-}
-catch (NullReferenceException)
-{
-    System.Console.WriteLine("\nError: Student data is not available.\n");
-}
-catch (Exception ex)
-{
-    System.Console.WriteLine("\nAn error occurred while viewing students.");
-    System.Console.WriteLine("Error: " + ex.Message);
-}
+                System.Console.WriteLine("--------------------------------------------------------------------------------");
+            }
+       }
+            catch (NullReferenceException)
+            {
+                System.Console.WriteLine("\nError: Student data is not available.\n");
+            }
+            catch (Exception ex)
+            {
+                System.Console.WriteLine("\nAn error occurred while viewing students.");
+                System.Console.WriteLine("Error: " + ex.Message);
+            }
     }
 
 
