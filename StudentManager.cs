@@ -31,7 +31,9 @@ class StudentManager : StudentServices
 
         System.Console.Write("Enter Marks        :   ");  // Takes Marks
         student.Marks = Convert.ToInt32(Console.ReadLine());
-
+         
+     // Add student object into the List
+        students.Add(student);
 
         return AddStudentSuccess;
     }
@@ -50,9 +52,9 @@ class StudentManager : StudentServices
                  return;
               }
 
-       System.Console.WriteLine("\n================================================================================");
-    System.Console.WriteLine("                            ALL STUDENTS");
-    System.Console.WriteLine("================================================================================");
+            System.Console.WriteLine("\n================================================================================");
+            System.Console.WriteLine("                            ALL STUDENTS");
+            System.Console.WriteLine("================================================================================");
 
     // Access each student using the foreach loop
     foreach (Student student in student)
@@ -64,18 +66,18 @@ class StudentManager : StudentServices
         System.Console.WriteLine("Course       : " + student.Course);
         System.Console.WriteLine("Marks        : " + student.Marks);
 
-        System.Console.WriteLine("--------------------------------------------------------------------------------");
-    }
-}
-catch (NullReferenceException)
-{
-    System.Console.WriteLine("\nError: Student data is not available.\n");
-}
-catch (Exception ex)
-{
-    System.Console.WriteLine("\nAn error occurred while viewing students.");
-    System.Console.WriteLine("Error: " + ex.Message);
-}
+                System.Console.WriteLine("--------------------------------------------------------------------------------");
+            }
+       }
+            catch (NullReferenceException)
+            {
+                System.Console.WriteLine("\nError: Student data is not available.\n");
+            }
+            catch (Exception ex)
+            {
+                System.Console.WriteLine("\nAn error occurred while viewing students.");
+                System.Console.WriteLine("Error: " + ex.Message);
+            }
     }
 
 
