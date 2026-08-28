@@ -2,7 +2,7 @@ class Student : Person
 {
     public int RollNo;
     public String? Course;
-
+public static int count=0;
     public string? COURSE
     {
         get

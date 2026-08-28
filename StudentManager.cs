@@ -2,6 +2,7 @@
 
 class StudentManager : StudentServices
 {
+   
     // Method for Adding a Student
     public Boolean AddStudentSuccess = false;  // Checks if Student is added or not and returns the result
     public override Boolean AddStudent()
@@ -38,10 +39,10 @@ class StudentManager : StudentServices
 
     // Method for Viewing all Students
     public override void ViewAllStudents()
-    {
+    { 
         try
        {
-           if (students.Count == 0) // Check how.                 many students are in the list
+           if (Student.count == 0) // Check how.                 many students are in the list
              {
                  // Check if the list is empty
                  System.Console.WriteLine("\nNo Student Found.\n");
@@ -54,7 +55,7 @@ class StudentManager : StudentServices
     System.Console.WriteLine("================================================================================");
 
     // Access each student using the foreach loop
-    foreach (Student student in students)
+    foreach (Student student in student)
     {
         // Display student details
         System.Console.WriteLine("\nName         : " + student.name);
