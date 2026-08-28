@@ -12,4 +12,22 @@
 /Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.pdb
 /Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.genruntimeconfig.cache
 /Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/ref/StudentManagementSystem.dll
+<<<<<<< HEAD
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.exe
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.deps.json
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.runtimeconfig.json
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.dll
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.pdb
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.sourcelink.json
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.dll
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\refint\StudentManagementSystem.dll
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.pdb
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.genruntimeconfig.cache
+C:\Users\HP\Documents\GitHub\StudentManagementSystem\obj\Debug\net10.0\ref\StudentManagementSystem.dll
+=======
 /Users/inspire/Documents/StudentManagementSystem/obj/Debug/net10.0/StudentManagementSystem.sourcelink.json
+>>>>>>> main

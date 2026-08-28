@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wYbKnoDUDss=",
+  "dgSpecHash": "Se/BI+nCZqs=",
   "success": true,
-  "projectFilePath": "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Documents\\GitHub\\StudentManagementSystem\\StudentManagementSystem.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file /Users/inspire/Documents/StudentManagementSystem/obj/project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
