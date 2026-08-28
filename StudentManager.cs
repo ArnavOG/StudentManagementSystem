@@ -1,7 +1,11 @@
 // This class Handles all of the Operations on Student's Data
 
 class StudentManager : StudentServices
-{
+{ 
+      // List is used to store all student records
+    private List<Student> students = new List<Student>();
+
+
     // Method for Adding a Student
     public Boolean AddStudentSuccess = false;  // Checks if Student is added or not and returns the result
     public override Boolean AddStudent()
@@ -30,7 +34,9 @@ class StudentManager : StudentServices
 
         System.Console.Write("Enter Marks        :   ");  // Takes Marks
         student.Marks = Convert.ToInt32(Console.ReadLine());
-
+         
+     // Add student object into the List
+        students.Add(student);
 
         return AddStudentSuccess;
     }
