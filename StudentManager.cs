@@ -94,7 +94,37 @@ class StudentManager : StudentServices
     public Boolean StudentFound = false;  // Checks if the desired student was found or not
     public override Boolean SearchStudent()
     {
+     // Take the roll number as input
+    System.Console.Write("Enter Roll Number to Search :   ");
+    int rollNo = Convert.ToInt32(Console.ReadLine());
 
+    // Check each student one by one in the list
+    foreach (Student student in students)
+    {
+        // Check whether the roll number matches or not
+        if (student.RollNo == rollNo)
+        {
+            // Student found
+            StudentFound = true;
+
+            // Display the student's details
+            System.Console.WriteLine("\n===== STUDENT FOUND =====");
+
+            System.Console.WriteLine("Name         : " + student.name);
+            System.Console.WriteLine("Age          : " + student.age);
+            System.Console.WriteLine("Roll Number  : " + student.RollNo);
+            System.Console.WriteLine("Course       : " + student.Course);
+            System.Console.WriteLine("Marks        : " + student.Marks);
+
+            // The student was found, so return from here
+            return StudentFound;
+        }
+    }
+
+    // If the student is not found after checking the entire list
+    System.Console.WriteLine("\nStudent Not Found.");
+
+    StudentFound = false;
 
         return StudentFound;
     }
