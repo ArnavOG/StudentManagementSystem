@@ -7,6 +7,9 @@ class StudentManager : StudentServices
     public Boolean AddStudentSuccess = false;  // Checks if Student is added or not and returns the result
     public override Boolean AddStudent()
     {
+
+        AddStudentSuccess = false;
+
         // Displays Add Student Interface
         System.Console.WriteLine("================================================================================");
         System.Console.WriteLine("                            ADD NEW STUDENT");
@@ -20,20 +23,26 @@ class StudentManager : StudentServices
         person.name = Console.ReadLine();
         
         System.Console.Write("Enter Age          :   ");  // Takes Age
-        person.age = Convert.ToInt32(Console.ReadLine());
+        person.Age = Convert.ToInt32(Console.ReadLine());
+
 
         System.Console.Write("Enter Roll Number  :   ");  // Takes Roll Number
         student.RollNo = Convert.ToInt32(Console.ReadLine());
+
         
         System.Console.WriteLine("Courses: Computer Science / Mechanical / Civil \n");
         System.Console.Write("Enter Course       :   ");  // Takes Course
-        student.Course = Console.ReadLine();
+        student.COURSE = Console.ReadLine();
+
 
         System.Console.Write("Enter Marks        :   ");  // Takes Marks
-        student.Marks = Convert.ToInt32(Console.ReadLine());
+        student.MARKS = Convert.ToInt32(Console.ReadLine());
+
          
      // Add student object into the List
-        students.Add(student);
+        // student.Add(student);                // Jisne bhi ye likha hai wo dubara ek baar check kar le 🙂
+
+        AddStudentSuccess = true;
 
         return AddStudentSuccess;
     }
@@ -42,42 +51,42 @@ class StudentManager : StudentServices
     // Method for Viewing all Students
     public override void ViewAllStudents()
     { 
-        try
-       {
-           if (Student.count == 0) // Check how.                 many students are in the list
-             {
-                 // Check if the list is empty
-                 System.Console.WriteLine("\nNo Student Found.\n");
+    //     try
+    //    {
+    //        if (Student.count == 0) // Check how many students are in the list
+    //          {
+    //              // Check if the list is empty
+    //              System.Console.WriteLine("\nNo Student Found.\n");
 
-                 return;
-              }
+    //              return;
+    //           }
 
-            System.Console.WriteLine("\n================================================================================");
-            System.Console.WriteLine("                            ALL STUDENTS");
-            System.Console.WriteLine("================================================================================");
+    //         System.Console.WriteLine("\n================================================================================");
+    //         System.Console.WriteLine("                            ALL STUDENTS");
+    //         System.Console.WriteLine("================================================================================");
 
-    // Access each student using the foreach loop
-    foreach (Student student in student)
-    {
-        // Display student details
-        System.Console.WriteLine("\nName         : " + student.name);
-        System.Console.WriteLine("Age          : " + student.age);
-        System.Console.WriteLine("Roll Number  : " + student.RollNo);
-        System.Console.WriteLine("Course       : " + student.Course);
-        System.Console.WriteLine("Marks        : " + student.Marks);
+    // // Access each student using the foreach loop
+    // foreach (Student student in student)
+    // {
+    //     // Display student details
+    //     System.Console.WriteLine("\nName       : " + student.name);
+    //     System.Console.WriteLine("Age          : " + student.age);
+    //     System.Console.WriteLine("Roll Number  : " + student.RollNo);
+    //     System.Console.WriteLine("Course       : " + student.Course);
+    //     System.Console.WriteLine("Marks        : " + student.Marks);
 
-                System.Console.WriteLine("--------------------------------------------------------------------------------");
-            }
-       }
-            catch (NullReferenceException)
-            {
-                System.Console.WriteLine("\nError: Student data is not available.\n");
-            }
-            catch (Exception ex)
-            {
-                System.Console.WriteLine("\nAn error occurred while viewing students.");
-                System.Console.WriteLine("Error: " + ex.Message);
-            }
+    //         System.Console.WriteLine("--------------------------------------------------------------------------------");
+    //         }
+    //    }
+    //         catch (NullReferenceException)
+    //         {
+    //             System.Console.WriteLine("\nError: Student data is not available.\n");
+    //         }
+    //         catch (Exception ex)
+    //         {
+    //             System.Console.WriteLine("\nAn error occurred while viewing students.");
+    //             System.Console.WriteLine("Error: " + ex.Message);
+    //         }
     }
 
 
