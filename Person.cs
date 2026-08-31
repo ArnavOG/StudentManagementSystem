@@ -18,12 +18,12 @@ class Person
             if (value >= 0)
             {
                 age = value;
-                System.Console.WriteLine("Age stored");
+                System.Console.WriteLine("-----> Age stored");
                 AgeCheck = false;
             }
             else
             {
-                System.Console.WriteLine("Please Enter a Valid Age...");
+                System.Console.WriteLine("-----> Please Enter a Valid Age...");
                 AgeCheck = true;
             }
             

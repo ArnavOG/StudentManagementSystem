@@ -18,24 +18,24 @@ class Student : Person
             if(string.Equals(value, "Computer Science", StringComparison.OrdinalIgnoreCase))
             {
                 Course = value;
-                System.Console.WriteLine("Course Stored");
+                System.Console.WriteLine("-----> Course Stored");
                 CourseCheck = false;
             }
             else if(string.Equals(value, "Mechanical", StringComparison.OrdinalIgnoreCase))
             {
                 Course = value;
-                System.Console.WriteLine("Course Stored");
+                System.Console.WriteLine("-----> Course Stored");
                 CourseCheck = false;
             }
             else if(string.Equals(value, "Civil", StringComparison.OrdinalIgnoreCase))
             {
                 Course = value;
-                System.Console.WriteLine("Course Stored");
+                System.Console.WriteLine("-----> Course Stored");
                 CourseCheck = false;
             }
             else
             {
-                System.Console.WriteLine("Course not Available, Please Choose a valid Course");
+                System.Console.WriteLine("-----> Course not Available, Please Choose a valid Course");
                 CourseCheck = true;
             }
             
@@ -55,12 +55,12 @@ class Student : Person
             if(value >= 0 && value <= 100)
             {
                 Marks = value;
-                System.Console.WriteLine("Marks stored");
+                System.Console.WriteLine("-----> Marks stored");
                 MarksCheck = false;
             }
             else
             {
-                System.Console.WriteLine("Please Enter Marks above 0 and below 100...");
+                System.Console.WriteLine("-----> Please Enter Marks above 0 and below 100...");
                 MarksCheck = true;
             }
             

@@ -56,6 +56,15 @@ class StudentManager : StudentServices
 
         AddStudentSuccess = true;
 
+        if (AddStudentSuccess)
+        {
+            System.Console.WriteLine("___---___---___---___---Student Was added successfully___---___---___---___---");
+        }
+        else
+        {
+             System.Console.WriteLine("___---___---___---___---Failed to add the Student!___---___---___---___---");           
+        }
+
         return AddStudentSuccess;
     }
 
@@ -92,11 +101,11 @@ class StudentManager : StudentServices
        }
             catch (NullReferenceException)
             {
-                System.Console.WriteLine("\nError: Student data is not available.\n");
+                System.Console.WriteLine("\n-----> Error: Student data is not available.\n");
             }
             catch (Exception ex)
             {
-                System.Console.WriteLine("\nAn error occurred while viewing students.");
+                System.Console.WriteLine("\n-----> An error occurred while viewing students.");
                 System.Console.WriteLine("Error: " + ex.Message);
             }
     }
@@ -134,7 +143,7 @@ class StudentManager : StudentServices
     }
 
     // If the student is not found after checking the entire list
-    System.Console.WriteLine("\nStudent Not Found.");
+    System.Console.WriteLine("\n-----> Student Not Found.");
 
     StudentFound = false;
 
