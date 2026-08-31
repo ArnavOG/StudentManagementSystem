@@ -58,11 +58,11 @@ class StudentManager : StudentServices
 
         if (AddStudentSuccess)
         {
-            System.Console.WriteLine("___---___---___---___---Student Was added successfully___---___---___---___---");
+            System.Console.WriteLine("\n___---___---___---___---Student Was added successfully!___---___---___---___---\n");
         }
         else
         {
-             System.Console.WriteLine("___---___---___---___---Failed to add the Student!___---___---___---___---");           
+             System.Console.WriteLine("\n___---___---___---___---Failed to add the Student!___---___---___---___---\n");           
         }
 
         return AddStudentSuccess;
