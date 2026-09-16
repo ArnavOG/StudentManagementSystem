@@ -15,19 +15,18 @@ class StudentManager : StudentServices
         System.Console.WriteLine("                            ADD NEW STUDENT");
         System.Console.WriteLine("================================================================================\n \n");
 
-        // Objects for Data from classes Person/Student
-        Person person = new Person();
+        // Objects for Data from classes Student
         Student student = new Student();
 
         System.Console.Write("Enter Name         :   ");  // Takes Name
-        person.name = Console.ReadLine();
+        student.name = Console.ReadLine();
         
         System.Console.Write("Enter Age          :   ");  // Takes Age
 
         do
         {
-            person.Age = Convert.ToInt32(Console.ReadLine());
-        }while(person.AgeCheck);
+            student.Age = Convert.ToInt32(Console.ReadLine());
+        }while(student.AgeCheck);
 
 
         System.Console.Write("Enter Roll Number  :   ");  // Takes Roll Number

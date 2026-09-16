@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj": {}
+    "/Users/inspire/Documents/Projects/StudentManagementSystem/StudentManagementSystem.csproj": {}
   },
   "projects": {
-    "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj": {
+    "/Users/inspire/Documents/Projects/StudentManagementSystem/StudentManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj",
+        "projectUniqueName": "/Users/inspire/Documents/Projects/StudentManagementSystem/StudentManagementSystem.csproj",
         "projectName": "StudentManagementSystem",
-        "projectPath": "/Users/inspire/Documents/StudentManagementSystem/StudentManagementSystem.csproj",
+        "projectPath": "/Users/inspire/Documents/Projects/StudentManagementSystem/StudentManagementSystem.csproj",
         "packagesPath": "/Users/inspire/.nuget/packages/",
-        "outputPath": "/Users/inspire/Documents/StudentManagementSystem/obj/",
+        "outputPath": "/Users/inspire/Documents/Projects/StudentManagementSystem/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/inspire/.nuget/NuGet/NuGet.Config"
