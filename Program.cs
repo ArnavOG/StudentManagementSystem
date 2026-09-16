@@ -112,6 +112,7 @@ class Program
     static void Main(string[] args)
 
     {
+        Console.WriteLine("Hello, World!");
         // Menu mu =new Menu();
 
         // mu.main_screen();

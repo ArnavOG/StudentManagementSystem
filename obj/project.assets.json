@@ -8,24 +8,32 @@
     "net10.0": []
   },
   "packageFolders": {
-    "/Users/inspire/.nuget/packages/": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/inspire/Documents/Projects/StudentManagementSystem/StudentManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Student\\StudentManagementSystem\\StudentManagementSystem.csproj",
       "projectName": "StudentManagementSystem",
-      "projectPath": "/Users/inspire/Documents/Projects/StudentManagementSystem/StudentManagementSystem.csproj",
-      "packagesPath": "/Users/inspire/.nuget/packages/",
-      "outputPath": "/Users/inspire/Documents/Projects/StudentManagementSystem/obj/",
+      "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Student\\StudentManagementSystem\\StudentManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Student\\StudentManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/inspire/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,7 +53,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
@@ -67,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
